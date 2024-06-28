@@ -25,7 +25,6 @@ preserveTaxonomyNames = true
     showhugo = false
 
     # Urls for social networks
-    mastodon = "https://fosstodon.org/@FrancoisGerber"
     twitter = "https://x.com/Francoisantonie"
     linkedin = "https://www.linkedin.com/in/francois-antonie-gerber/"
     github = "https://github.com/FrancoisGerber"
