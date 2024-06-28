@@ -1,5 +1,5 @@
-baseURL = "https://example.com"
-title = "HUGO.386"
+baseURL = "/"
+title = "Francois Gerber"
 languageCode = "en"
 DefaultContentLanguage = "en" # Change this to change the site's language
 theme = "hugo.386"
@@ -7,29 +7,28 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "HUGO.386"
+    mainpagetitle = "I'm Francois Gerber"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "Welcome to the early 90s!" 
+    mainpagesubtitle = "Web Applications and Mobile Software Developer" 
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "This theme is the Hugo port of the BOOTSTRA.386 theme for a cool retro look on your blog. Check the links below to access the posts."
+    mainpagedesc = "Passionate about coding, reading, cooking, gardening, and hiking. Let's explore technology and storytelling together! 💻📚✍️🌱🌄"
 
     # The name to display in the copyright section in the footer
-    copyrightname = "JM Fergeau"
+    copyrightname = "Francois Gerber"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    copyrighturl = "http://jmf-portfolio.netlify.com"
+    copyrighturl = "https://francoisgerber.github.io/FrancoisGerber/"
 
     # Show the "built on Hugo" disclaimer
-    showhugo = true
+    showhugo = false
 
     # Urls for social networks
-    facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    github = "https://github.com"
-    gitlab = "https://gitlab.com"
+    mastodon = "https://fosstodon.org/@FrancoisGerber"
+    twitter = "https://x.com/Francoisantonie"
+    linkedin = "https://www.linkedin.com/in/francois-antonie-gerber/"
+    github = "https://github.com/FrancoisGerber"
 
     # Enables or disables the loading animations. false activates them. Default is false.
     loadfastload = false
@@ -41,16 +40,16 @@ preserveTaxonomyNames = true
     loadonepass = false
 
 [params.copyright]
-    name = "JM Fergeau"
+    name = "Francois Gerber"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "http://jmf-portfolio.netlify.com"
+    url = "https://www.francoisgerber.co.za/"
 
     # Text to go before copyright information
-    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+    prefix = ""
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "Example site"
+    suffix = ""
 
 [menu]
   # This displays buttons in the navbar to access your contents
@@ -70,30 +69,3 @@ preserveTaxonomyNames = true
 category = "categories"
 tag = "tags"
 
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true

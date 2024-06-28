@@ -1,5 +1,6 @@
 body { 
-	visibility: hidden 
+	visibility: hidden; 
+	background-color: #303030;
 }
 
 .navmargin {
@@ -8,4 +9,19 @@ body {
 
 h2 {
     white-space: normal;
+}
+
+footer p {
+	max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.space {
+	margin-left: 10%;
 }
